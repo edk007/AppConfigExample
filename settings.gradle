@@ -1,2 +1,4 @@
+include ':libraries:testmetrics'
+include ':bil'
 include ':app'
 rootProject.name = "AppConfigExample"

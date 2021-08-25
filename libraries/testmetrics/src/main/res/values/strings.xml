@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TestMetrics</string>
+
+    <string name="serial_number2">Serial Number 2</string>
+    <string name="serial_number_description2">Serial number goes here</string>
+</resources>

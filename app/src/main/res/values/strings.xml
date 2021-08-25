@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">AppConfigExample</string>
 
-    <string name="serial_number">Serial Number</string>
-    <string name="serial_number_description">Serial number goes here</string>
+    <string name="serial_number">ID Number</string>
+    <string name="serial_number_description">ID number goes here</string>
 
 
 </resources>

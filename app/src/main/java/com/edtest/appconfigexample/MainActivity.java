@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String TAG = "APP_CONFIG_EXAMPLE";
     public static final String TAG2 = "MAIN_ACTIVITY: ";
 
-    public static final String KEY_SERIAL_NUMBER = "SERIAL_NUMBER";
+    public static final String KEY_ID_NUMBER = "ID_NUMBER";
 
     TextView textView;
 
@@ -41,10 +41,10 @@ public class MainActivity extends AppCompatActivity {
             for (String k : keys) {
                 Object value = restrictions.get(k);
                 switch (k) {
-                    case KEY_SERIAL_NUMBER:
+                    case KEY_ID_NUMBER:
                         //license key
                         String serialNumber = value.toString();
-                        Log.w(TAG, TAG2 + "LOAD_RESTRICTIONS: KEY: " + KEY_SERIAL_NUMBER + " VALUE:" + serialNumber);
+                        Log.w(TAG, TAG2 + "LOAD_RESTRICTIONS: KEY: " + KEY_ID_NUMBER + " VALUE:" + serialNumber);
                         textView.setText(serialNumber);
                         break;
                     default:
